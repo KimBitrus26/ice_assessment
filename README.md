@@ -23,9 +23,14 @@ To run the project, first ensure the source code is cloned.
  5. Create superuser:
 
     `python manage.py createsuperuser`
+
  6. Start the server with:
 
     `python manage.py runserver`
+
+ 7. Run tests
+
+    `python manage.py test`
 
 Link to postman API documentation [Link Here](https://documenter.getpostman.com/view/14940225/2s8YsozvLk#d7893a64-c477-4e92-aa0e-7e0a1ed01d6e)
 
