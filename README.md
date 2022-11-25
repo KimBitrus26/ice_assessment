@@ -20,15 +20,20 @@ To run the project, first ensure the source code is cloned.
 
      `export $(xargs < .env)`
 
- 5. Create superuser:
+5. Run migrations
+
+    `python manage.py makemigrations`
+    `python manahe.py migrate`
+
+6. Create superuser:
 
     `python manage.py createsuperuser`
 
- 6. Start the server with:
+7. Start the server with:
 
     `python manage.py runserver`
 
- 7. Run tests
+8. Run tests
 
     `python manage.py test`
 
